@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import './App.css';
 
 export default function App() {
-  const [markdown, setMarkdown] = useState('# supppppp');
+  const [markdown, setMarkdown] = useState('# Create your markdown');
 
   function handleChange(e) {
     setMarkdown(e.target.value);
